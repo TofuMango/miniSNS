@@ -1,19 +1,40 @@
 {
   "todos": [
     {
-      "id": 1,
+      "id": "1",
       "content": "Todo 1",
       "isDone": true
     },
     {
-      "id": 2,
+      "id": "2",
       "content": "Todo 2",
       "isDone": true
     },
     {
-      "id": 3,
+      "id": "3",
       "content": "Todo 3",
       "isDone": false
+    },
+    {
+      "id": "218c",
+      "content": "123",
+      "isDone": false
+    },
+    {
+      "id": "d1f2",
+      "content": "추가요청",
+      "isDone": false
+    },
+    {
+      "id": "beca",
+      "content": "쓰로틀링 걸어볼까",
+      "isDone": false
+    },
+    {
+      "id": "e8d3",
+      "content": "아무것두 안하고싶은뎅",
+      "isDone": false
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

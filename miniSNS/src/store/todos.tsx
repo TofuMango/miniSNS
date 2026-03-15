@@ -14,12 +14,15 @@ const useTodosStore = create(
       actions: {
         createTodo: (content: string) => {
           set((state) => {
-            state.todos.push({ id: new Date().getTime(), content: content });
+            state.todos.push({
+              id: String(new Date().getTime()),
+              content: content,
+            });
           });
         },
-        deleteTodo: (targetId: number) => {
+        deleteTodo: (targetId: string) => {
           set((state) => {
-            state.todos = state.todos.filter((todo) => todo.id != targetId);
+            state.todos = state.todos.filter((todo) => todo.id !== targetId);
           });
         },
       },
