@@ -6,38 +6,13 @@
       "isDone": true
     },
     {
-      "id": "2",
-      "content": "Todo 2",
-      "isDone": true
-    },
-    {
-      "id": "3",
-      "content": "Todo 3",
+      "id": "985f",
+      "content": "두부밥주기",
       "isDone": false
     },
     {
-      "id": "218c",
-      "content": "123",
-      "isDone": false
-    },
-    {
-      "id": "d1f2",
-      "content": "추가요청",
-      "isDone": false
-    },
-    {
-      "id": "beca",
-      "content": "쓰로틀링 걸어볼까",
-      "isDone": false
-    },
-    {
-      "id": "e8d3",
-      "content": "아무것두 안하고싶은뎅",
-      "isDone": false
-    },
-    {
-      "id": "ce38",
-      "content": "알바하기",
+      "id": "0342",
+      "content": "두부물갈아주기",
       "isDone": false
     }
   ],

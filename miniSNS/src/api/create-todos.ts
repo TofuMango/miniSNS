@@ -1,4 +1,5 @@
 import { API_URL } from "@/lib/constants";
+import type { Todo } from "@/types";
 
 export async function createTodos(content: string) {
   const response = await fetch(`${API_URL}/todos`, {
@@ -12,6 +13,6 @@ export async function createTodos(content: string) {
   if (!response.ok) throw new Error("Create Todo Failed");
 
   // 응답값을 파싱해서
-  const data = await response.json();
+  const data: Todo = await response.json();
   return data;
 }
