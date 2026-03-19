@@ -3,7 +3,7 @@
     {
       "id": "1",
       "content": "Todo 1",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "985f",
