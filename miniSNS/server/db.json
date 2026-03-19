@@ -3,12 +3,12 @@
     {
       "id": "1",
       "content": "Todo 1",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "985f",
       "content": "두부밥주기",
-      "isDone": false
+      "isDone": true
     },
     {
       "id": "0342",
