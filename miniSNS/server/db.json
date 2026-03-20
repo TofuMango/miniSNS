@@ -4,6 +4,16 @@
       "id": "985f",
       "content": "두부밥주기",
       "isDone": true
+    },
+    {
+      "id": "5f0c",
+      "content": "아이고 머리야",
+      "isDone": false
+    },
+    {
+      "id": "fad5",
+      "content": "확인해봐",
+      "isDone": false
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
