@@ -1,19 +1,9 @@
 {
   "todos": [
     {
-      "id": "1",
-      "content": "Todo 1",
-      "isDone": true
-    },
-    {
       "id": "985f",
       "content": "두부밥주기",
       "isDone": true
-    },
-    {
-      "id": "0342",
-      "content": "두부물갈아주기",
-      "isDone": false
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
